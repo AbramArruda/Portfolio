@@ -1,0 +1,23 @@
+#emailInput {
+  background-color: black;
+  color: lightgray;
+  border-color: black;
+  height: 50px;
+  width: 500px;
+  width: auto;
+}
+
+#messageInput {
+  background-color: black;
+  color: lightgray;
+
+  border-color: black;
+}
+
+#emailButton {
+  margin-bottom: 50px;
+}
+
+#emailForm {
+  margin-top: 80px;
+}

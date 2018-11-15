@@ -1,0 +1,14 @@
+#homeTextDiv {
+  padding-top: 200px;
+}
+
+#homeText {
+  text-align: center;
+  height: 500px;
+  font-size: 60px;
+}
+
+#homeText2 {
+  color: gray;
+  font-size: 60px;
+}

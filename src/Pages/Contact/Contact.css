@@ -1,0 +1,40 @@
+#githubLink {
+  color: gray;
+}
+#githubLink:hover {
+  color: white;
+}
+
+#linkedInLink {
+  color: gray;
+}
+#linkedInLink:hover {
+  color: white;
+}
+
+#emailLink {
+  color: gray;
+}
+#emailLink:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#emailContact {
+  font-size: 50px;
+}
+
+#socialLinks {
+  font-size: 50px;
+  padding-top: 0;
+}
+
+#resumeLink {
+  color: gray;
+}
+#resumeLink:hover {
+  color: white;
+}

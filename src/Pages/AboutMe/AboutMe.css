@@ -1,0 +1,38 @@
+#bio {
+  font-size: 24px;
+}
+
+#courseContent {
+  color: gray;
+}
+
+#courseContent:hover {
+  color: white;
+}
+#courseContent:active {
+  color: black;
+}
+
+#frontEndSkills {
+  padding-right: 40px;
+}
+#devToolsSkills {
+  padding-right: 40px;
+}
+#backEndSkills {
+  padding-right: 40px;
+}
+
+#aboutMeHeader {
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+#aboutMeSkills {
+  margin-bottom: 23px;
+}
+#aboutMeEducation {
+  margin-bottom: 23px;
+}
+#aboutMeText {
+  margin-bottom: 23px;
+}

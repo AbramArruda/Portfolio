@@ -1,0 +1,63 @@
+.navbar {
+  background: none;
+  margin: 25px;
+  padding: 25px;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+
+  text-decoration-color: white;
+}
+
+#aboutLink {
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+#contactLink {
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+#worksLink {
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+#logoLink {
+  margin-left: 25px;
+  font-size: 30px;
+  background-color: black;
+}
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: 0;
+  background: white;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
