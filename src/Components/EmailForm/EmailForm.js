@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Rotate from "react-reveal/Rotate";
+import Fade from "react-reveal/Fade";
 
 import "./EmailForm.css";
 
@@ -7,7 +7,7 @@ export default class EmailForm extends Component {
   render() {
     return (
       <div id="emailForm">
-        <Rotate cascade bottom left duration={1000} delay={4000}>
+        <Fade left duration={1000} delay={4000}>
           <div>
             <h3>Enter your information below to send a message.</h3>
           </div>
@@ -16,7 +16,7 @@ export default class EmailForm extends Component {
               <div class="row">
                 <div class="form-group col-5">
                   <label for="exampleInputEmail1">
-                    <h5>Your email address:</h5>
+                    <h5>Your email:</h5>
                   </label>
                   <input
                     type="email"
@@ -44,7 +44,7 @@ export default class EmailForm extends Component {
               <i class="far fa-envelope fa-2x" />{" "}
             </button>
           </form>
-        </Rotate>
+        </Fade>
       </div>
     );
   }

@@ -61,3 +61,67 @@ a:hover {
   right: auto;
   width: 100%;
 }
+
+#navbarWrapper {
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    background: white;
+    margin: 0;
+    padding: 20px;
+    font-size: 15px;
+    height: 125px;
+  }
+
+  #aboutLink {
+    font-size: 25px;
+    color: black;
+    font-weight: 150;
+  }
+
+  #contactLink {
+    font-size: 25px;
+    color: black;
+    font-weight: 150;
+  }
+
+  #worksLink {
+    font-size: 25px;
+    color: black;
+    font-weight: 150;
+  }
+
+  #aboutLink:hover {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+
+  #contactLink:hover {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+
+  #worksLink:hover {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+
+  #aboutLink:active {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+
+  #contactLink:active {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+
+  #worksLink:active {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+}

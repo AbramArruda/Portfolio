@@ -8,10 +8,10 @@ export default class AboutMe extends Component {
     return (
       <div>
         <div class="container">
-          <div class="row about-row">
-            <div class="col-lg-12 no-padding" id="aboutMeHeader">
+          <div class="row about-row" id="aboutMeHeaderWrapper">
+            <div class="col-lg-12 no-padding" id="aboutMeHeaderContainer">
               <Fade duration={2000}>
-                <h1>
+                <h1 id="aboutMeHeader">
                   {" "}
                   I am looking to better my current skills and contiunally learn
                   every day.{" "}
@@ -33,7 +33,7 @@ export default class AboutMe extends Component {
           <div class="row about-row" id="aboutMeText">
             <div class="col-sm-12 col-lg-4 no-padding">
               <Fade left>
-                <h2>About:</h2>
+                <h2 id="about">About:</h2>
               </Fade>
             </div>
             <div class="col-sm-12 col-lg-8 no-padding">
@@ -58,17 +58,17 @@ export default class AboutMe extends Component {
           <div class="row about-row" id="aboutMeSkills">
             <div class="col-sm-12 col-lg-4 no-padding">
               <Fade left delay={500}>
-                <h2>Skills:</h2>
+                <h2 id="skills">Skills:</h2>
               </Fade>
             </div>
             <div class="col-sm-12 col-lg-6">
-              <div class="row">
+              <div class="row" id="skillsWrapper">
                 <Fade bottom cascade duration={2500} delay={2500}>
                   <div class="col-3" id="frontEndSkills">
-                    <h3> Front-End: </h3>
+                    <h3 id="frontEnd"> Front-End: </h3>
 
                     <Fade bottom cascade delay={4000}>
-                      <ul>
+                      <ul id="skillsList1">
                         <li>Html</li>
                         <li>CSS</li>
                         <li>React</li>
@@ -77,10 +77,10 @@ export default class AboutMe extends Component {
                     </Fade>
                   </div>
                   <div class="col-3" id="backEndSkills">
-                    <h3> Back-End: </h3>
+                    <h3 id="backEnd"> Back-End: </h3>
 
                     <Fade bottom cascade delay={4000}>
-                      <ul>
+                      <ul id="skillsList2">
                         <li>MySQL</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>
@@ -89,9 +89,9 @@ export default class AboutMe extends Component {
                     </Fade>
                   </div>
                   <div class="col-3" id="devToolsSkills">
-                    <h3> Dev Tools: </h3>
+                    <h3 id="devTools"> Dev Tools: </h3>
                     <Fade bottom cascade delay={4000}>
-                      <ul>
+                      <ul id="skillsList3">
                         <li>NPM/Yarn</li>
                         <li>O-Auth</li>
                         <li>Node</li>
@@ -107,14 +107,14 @@ export default class AboutMe extends Component {
           <div class="row about-row">
             <div class="col-sm-12 col-lg-4 no-padding" id="aboutMeEducation">
               <Fade left delay={1000}>
-                <h2>Education:</h2>
+                <h2 id="education">Education:</h2>
               </Fade>
             </div>
             <div class="col-sm-5 col-lg-6">
-              <div class="row">
+              <div class="row" id="educationWrapper">
                 <Fade bottom cascade duration={2500} delay={3000}>
                   <div class="col-sm-5 no-padding">
-                    <h3> Bachelors Degree in Biology </h3>
+                    <h3 id="degree"> Bachelors Degree in Biology </h3>
                     <Fade bottom cascade delay={4000}>
                       <ul>
                         <li>Spring 2013 - December 2017</li>
@@ -123,7 +123,7 @@ export default class AboutMe extends Component {
                     </Fade>
                   </div>
                   <div class="col-5 no-padding">
-                    <h3> Full Stack Development Program </h3>
+                    <h3 id="certificate"> Full Stack Development Program </h3>
                     <Fade bottom cascade delay={4000} appear={true}>
                       <ul>
                         <li>May 2018 - November 2018</li>

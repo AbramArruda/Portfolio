@@ -12,3 +12,26 @@
   color: gray;
   font-size: 60px;
 }
+
+@media only screen and (max-width: 700px) {
+  #homeText {
+    font-size: 45px;
+    height: 200px;
+  }
+  #homeText2 {
+    font-size: 35px;
+  }
+
+  #homeImage {
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+  }
+
+  #homeTextDiv {
+    padding-top: 40px;
+    margin-top: 20px;
+    font-size: 45px;
+  }
+}

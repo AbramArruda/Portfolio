@@ -23,7 +23,7 @@
   padding-right: 40px;
 }
 
-#aboutMeHeader {
+#aboutMeHeaderContainer {
   padding-top: 15px;
   margin-bottom: 40px;
 }
@@ -35,4 +35,73 @@
 }
 #aboutMeText {
   margin-bottom: 23px;
+}
+
+@media only screen and (max-width: 700px) {
+  #aboutMeHeader {
+    padding: 15px;
+    height: 60px;
+    font-size: 23px;
+  }
+  #aboutMeHeaderWrapper {
+    padding: 25px;
+  }
+
+  #bio {
+    padding: 30px;
+    font-size: 15px;
+  }
+
+  #about {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  #skills {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+
+  #education {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  #frontEnd {
+    font-size: 20px;
+  }
+  #backEnd {
+    font-size: 20px;
+  }
+  #devTools {
+    font-size: 20px;
+  }
+
+  #skillsWrapper {
+    padding: 20px;
+    margin-left: 20px;
+  }
+  #frontEndSkills {
+    padding-right: 20px;
+  }
+  #devToolsSkills {
+    padding-right: 20px;
+  }
+  #backEndSkills {
+    padding-right: 20px;
+  }
+  #degree {
+    font-size: 25px;
+  }
+  #certificate {
+    font-size: 25px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+  #educationWrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+  }
 }

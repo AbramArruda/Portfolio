@@ -38,3 +38,14 @@ a {
 #resumeLink:hover {
   color: white;
 }
+
+@media only screen and (max-width: 700px) {
+  #emailContact {
+    font-size: 30px;
+  }
+
+  #socialLinks {
+    font-size: 30px;
+    padding-top: 0;
+  }
+}
