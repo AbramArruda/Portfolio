@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <div>
             <Navbar />
             <Switch>
@@ -25,7 +25,7 @@ class App extends Component {
 
             <Footer />
           </div>
-        </Router>
+        </BrowserRouter>
       </div>
     );
   }
