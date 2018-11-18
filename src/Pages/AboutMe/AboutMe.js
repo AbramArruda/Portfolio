@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Resume from "../../utils/Resume.pdf";
 import "./AboutMe.css";
+import Footer from "../../Components/Footer";
 
 export default class AboutMe extends Component {
   render() {
@@ -136,6 +137,7 @@ export default class AboutMe extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

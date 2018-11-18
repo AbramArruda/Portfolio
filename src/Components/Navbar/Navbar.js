@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Roll from "react-reveal/Roll";
-import Logo from "../../images/logo.jpg";
+import Logo from "../../images/LOGO_B.png";
+import Logo2 from "../../images/LOGO.png";
+
 import "./Navbar.css";
 
 export default class Navbar extends Component {
@@ -9,7 +11,8 @@ export default class Navbar extends Component {
       <nav class="navbar navbar-expand-md">
         <div>
           <a class="nav-link" href="/" id="logoLink">
-            <img src={Logo} />
+            <img src={Logo} id="fullImage" />
+            <img src={Logo2} id="mobileImage" />
           </a>
         </div>
         <div>

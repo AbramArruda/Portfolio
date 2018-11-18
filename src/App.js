@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
 import NotFound from "./Pages/NotFound";
@@ -22,8 +21,6 @@ class App extends Component {
               <Route exact path="/Works" component={Works} />
               <Route component={NotFound} />
             </Switch>
-
-            <Footer />
           </div>
         </Router>
       </div>

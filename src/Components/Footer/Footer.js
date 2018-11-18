@@ -11,14 +11,14 @@ export default class Footer extends Component {
           target="_blank"
           id="linkedInIcon"
         >
-          <i class="fa fa-linkedin fa-3x" />
+          <i class="fa fa-linkedin fa-2x" />
         </a>
         <a
           href="https://github.com/AbramArruda"
           target="_blank"
           id="githubIcon"
         >
-          <i class="fa fa-github fa-3x" />
+          <i class="fa fa-github fa-2x" />
         </a>
       </div>
     );

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Works.css";
 import Flip from "react-reveal/Flip";
 import Projects from "../../Components/Projects";
+import Footer from "../../Components/Footer";
 
 export default class Works extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class Works extends Component {
           </Flip>
           <Projects />
         </div>
+        <Footer />
       </div>
     );
   }

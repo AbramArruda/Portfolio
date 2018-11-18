@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import Flash from "react-reveal/Flash";
 
 import "./Contact.css";
-import EmailForm from "../../Components/EmailForm/EmailForm";
+// import EmailForm from "../../Components/EmailForm/EmailForm";
 
 export default class HomePage extends Component {
   render() {
@@ -52,7 +52,7 @@ export default class HomePage extends Component {
                     </div>
                   </div>
 
-                  <EmailForm />
+                  {/* <EmailForm /> */}
                 </div>
               </section>
             </div>

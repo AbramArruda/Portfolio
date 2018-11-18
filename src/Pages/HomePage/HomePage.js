@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import Pulse from "react-reveal/Pulse";
 import "./HomePage.css";
 import TextLoop from "react-text-loop";
+import Footer from "../../Components/Footer";
 
 export default class HomePage extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class HomePage extends Component {
             <h1 id="homeText">
               {" "}
               <Fade cascade left duration={1500} delay={500}>
-                Hi, I'm Abram Arruda.
+                Hi, I'm Abram Arruda
               </Fade>
               <Fade cascade duration={1500} delay={1700}>
                 <h3 id="homeText2">
@@ -36,6 +37,7 @@ export default class HomePage extends Component {
             <h1> THIS IS GOING TO BE AN ANIMATION </h1>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -1,7 +1,9 @@
 .navbar {
   background: none;
-  margin: 25px;
-  padding: 25px;
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
   font-size: 25px;
 }
 
@@ -15,24 +17,36 @@ a:hover {
   text-decoration-color: white;
 }
 
+#fullImage {
+  display: block;
+}
+
+#mobileImage {
+  display: none;
+}
+
 #aboutLink {
   margin-right: 50px;
-  font-size: 30px;
+  margin-left: 45px;
+  font-size: 23px;
+  text-align: right;
 }
 
 #contactLink {
   margin-right: 50px;
-  font-size: 30px;
+  font-size: 23px;
+  text-align: right;
 }
 
 #worksLink {
   margin-right: 50px;
-  font-size: 30px;
+  font-size: 23px;
+  text-align: right;
 }
 
 #logoLink {
   margin-left: 25px;
-  font-size: 30px;
+
   background-color: black;
 }
 
@@ -65,7 +79,6 @@ a:hover {
 #navbarWrapper {
   margin: 0;
   padding: 0;
-  align-content: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -74,15 +87,29 @@ a:hover {
     margin: 0;
     padding: 20px;
     font-size: 15px;
-    height: 125px;
+    height: 150px;
   }
 
+  #logoLink {
+    background-color: white;
+  }
+
+  #imageChange {
+    src: "../../images/LOGO.png";
+  }
   #aboutLink {
     font-size: 25px;
     color: black;
     font-weight: 150;
   }
 
+  #mobileImage {
+    display: block;
+  }
+
+  #fullImage {
+    display: none;
+  }
   #contactLink {
     font-size: 25px;
     color: black;
