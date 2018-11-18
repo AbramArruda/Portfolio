@@ -1,6 +1,6 @@
 #linkedInIcon {
-  padding-left: 50px;
-  margin: 15px;
+  padding-left: 20px;
+  margin: 10px;
 }
 
 #githubIcon {
@@ -8,6 +8,9 @@
 }
 
 #footer {
+  position: fixed;
+  bottom: 25px;
+  left: 0;
   width: 100%;
   background: none;
   color: white;
