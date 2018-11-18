@@ -21,17 +21,14 @@ class App extends Component {
                 component={HomePage}
               />
               <Route
-                exact
                 path={process.env.PUBLIC_URL + "/AboutMe"}
                 component={AboutMe}
               />
               <Route
-                exact
                 path={process.env.PUBLIC_URL + "/Contact"}
                 component={Contact}
               />
               <Route
-                exact
                 path={process.env.PUBLIC_URL + "/Works"}
                 component={Works}
               />
