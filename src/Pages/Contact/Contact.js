@@ -23,7 +23,6 @@ export default class HomePage extends Component {
                             abram1191@gmail.com
                           </a>{" "}
                         </Flash>
-                        or fill out the form below.
                       </h1>
                     </div>
                     <div class="jumbotron jumbotron-fluid">
