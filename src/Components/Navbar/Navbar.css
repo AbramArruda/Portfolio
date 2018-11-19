@@ -87,7 +87,7 @@ a:hover {
     margin: 0;
     padding: 20px;
     font-size: 15px;
-    height: 150px;
+    height: 90px;
   }
 
   #logoLink {
@@ -97,11 +97,6 @@ a:hover {
   #imageChange {
     src: "../../images/LOGO.png";
   }
-  #aboutLink {
-    font-size: 25px;
-    color: black;
-    font-weight: 150;
-  }
 
   #mobileImage {
     display: block;
@@ -110,31 +105,25 @@ a:hover {
   #fullImage {
     display: none;
   }
-  #contactLink {
-    font-size: 25px;
+  #aboutLink {
+    font-size: 15px;
     color: black;
     font-weight: 150;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  #contactLink {
+    font-size: 15px;
+    color: black;
+    font-weight: 150;
+    margin-right: 20px;
   }
 
   #worksLink {
-    font-size: 25px;
+    font-size: 15px;
     color: black;
     font-weight: 150;
-  }
-
-  #aboutLink:hover {
-    text-decoration: black;
-    text-decoration: underline;
-  }
-
-  #contactLink:hover {
-    text-decoration: black;
-    text-decoration: underline;
-  }
-
-  #worksLink:hover {
-    text-decoration: black;
-    text-decoration: underline;
+    margin-right: 20px;
   }
 
   #aboutLink:active {

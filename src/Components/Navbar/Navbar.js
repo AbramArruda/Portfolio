@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Rotate from "react-reveal/Rotate";
+import Fade from "react-reveal/Fade";
 import Logo from "../../images/LOGO_B.png";
 import Logo2 from "../../images/LOGO.png";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ export default class Navbar extends Component {
     return (
       <nav class="navbar navbar-expand-md">
         <div>
-          <Rotate duration={2000} delay={300}>
+          <Fade duration={2000} delay={300}>
             <Link
               class="nav-link"
               to={process.env.PUBLIC_URL + "/"}
@@ -20,12 +20,12 @@ export default class Navbar extends Component {
               <img src={Logo} id="fullImage" />
               <img src={Logo2} id="mobileImage" />
             </Link>
-          </Rotate>
+          </Fade>
         </div>
 
-        <div>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+        <ul class="nav">
+          <li class="nav-item">
+            <Fade duration={2000} delay={300}>
               <Link
                 class="nav-link underline"
                 to={process.env.PUBLIC_URL + "/AboutMe"}
@@ -33,8 +33,10 @@ export default class Navbar extends Component {
               >
                 about
               </Link>
-            </li>
-            <li class="nav-item">
+            </Fade>
+          </li>
+          <li class="nav-item">
+            <Fade duration={2000} delay={300}>
               <Link
                 class="nav-link underline"
                 to={process.env.PUBLIC_URL + "/Works"}
@@ -42,8 +44,10 @@ export default class Navbar extends Component {
               >
                 works
               </Link>
-            </li>
-            <li class="nav-item">
+            </Fade>
+          </li>
+          <li class="nav-item">
+            <Fade duration={2000} delay={300}>
               <Link
                 class="nav-link underline"
                 to={process.env.PUBLIC_URL + "/Contact"}
@@ -51,9 +55,9 @@ export default class Navbar extends Component {
               >
                 contact
               </Link>
-            </li>
-          </ul>
-        </div>
+            </Fade>
+          </li>
+        </ul>
       </nav>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Flash from "react-reveal/Flash";
-
+import Footer from "../../Components/Footer";
 import "./Contact.css";
 // import EmailForm from "../../Components/EmailForm/EmailForm";
 
@@ -57,6 +57,7 @@ export default class HomePage extends Component {
             </div>
           </div>
         </Fade>
+        <Footer />
       </div>
     );
   }
