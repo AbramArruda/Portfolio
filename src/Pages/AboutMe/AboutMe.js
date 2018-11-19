@@ -14,7 +14,7 @@ export default class AboutMe extends Component {
               <Fade duration={2000}>
                 <h1 id="aboutMeHeader">
                   {" "}
-                  I am looking to better my current skills and contially learn.{" "}
+                  I am looking to learn and face new challenges everyday.{" "}
                   <Fade delay={5500}>
                     <a
                       download="Resume.pdf"

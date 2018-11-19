@@ -4,6 +4,7 @@ import Pulse from "react-reveal/Pulse";
 import "./HomePage.css";
 import TextLoop from "react-text-loop";
 import Footer from "../../Components/Footer";
+import Animation from "../../Components/Animation";
 
 export default class HomePage extends Component {
   render() {
@@ -34,7 +35,7 @@ export default class HomePage extends Component {
             </h1>
           </div>
           <div class="col-sm-12 col-lg-6" id="homeImage">
-            <h1> THIS IS GOING TO BE AN ANIMATION </h1>
+            <Animation />
           </div>
         </div>
         <Footer />

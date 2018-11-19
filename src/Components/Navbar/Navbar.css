@@ -11,12 +11,6 @@ a {
   color: white;
 }
 
-a:hover {
-  color: white;
-
-  text-decoration-color: white;
-}
-
 #fullImage {
   display: block;
 }
@@ -24,24 +18,30 @@ a:hover {
 #mobileImage {
   display: none;
 }
-
+#linkContainer {
+  width: 100%;
+  justify-content: flex-end;
+}
 #aboutLink {
   margin-right: 50px;
   margin-left: 45px;
   font-size: 23px;
   text-align: right;
+  color: white;
 }
 
 #contactLink {
   margin-right: 50px;
   font-size: 23px;
   text-align: right;
+  color: white;
 }
 
 #worksLink {
   margin-right: 50px;
   font-size: 23px;
   text-align: right;
+  color: white;
 }
 
 #logoLink {
@@ -89,7 +89,10 @@ a:hover {
     font-size: 15px;
     height: 90px;
   }
-
+  #linkContainer {
+    width: auto;
+    justify-content: auto;
+  }
   #logoLink {
     background-color: white;
     padding: 0;
@@ -113,14 +116,14 @@ a:hover {
     color: black;
     margin-left: 0;
     margin-right: 10px;
-    float: left;
+    display: inline-block;
   }
   #contactLink {
     font-size: 15px;
     font-weight: bold;
     color: black;
     margin-right: 10px;
-    float: left;
+    display: inline-block;
   }
 
   #worksLink {
@@ -128,7 +131,7 @@ a:hover {
     font-weight: bold;
     color: black;
     margin-right: 10px;
-    float: left;
+    display: inline-block;
   }
 
   #aboutLink:active {

@@ -1,16 +1,20 @@
-// import React, { Component } from "react";
-// import AnimationFile from "../../images/Animation";
+import React from "react";
+import ReactBodymovin from "react-bodymovin";
+import animation from "../../images/Animation/data.json";
 
-// export default class Animation extends Component {
-//   render() {
-//     return(
+const App = () => {
+  const bodymovinOptions = {
+    loop: true,
+    autoplay: true,
+    prerender: true,
+    animationData: animation
+  };
 
-//     <div>
-//         <img width="320" height="240" controls>
-//              <source src={AnimationFile} type="video/mp4">
+  return (
+    <div>
+      <ReactBodymovin options={bodymovinOptions} />
+    </div>
+  );
+};
 
-//         </img>
-
-//     </div>;
-//   )}
-// }
+export default App;

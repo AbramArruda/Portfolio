@@ -20,7 +20,7 @@ export default class Navbar extends Component {
           </Link>
         </div>
 
-        <ul class="nav">
+        <ul class="nav" id="linkContainer">
           <li class="nav-item">
             <Link
               class="nav-link underline"
