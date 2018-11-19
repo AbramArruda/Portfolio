@@ -39,10 +39,12 @@ export default class AboutMe extends Component {
             <div class="col-sm-12 col-lg-8 no-padding">
               <Fade bottom duration={1800} delay={1000}>
                 <p id="bio">
-                  I am a Web Developer, currently living in the Atlanta area.
-                  Recent graduate of a full stack web development bootcamp
-                  taught at The Georgia Institute of Technology. The Curriculum
-                  for this course can be found
+                  I am a web developer, currently living in the Atlanta area.
+                  Recent graduate of a full stack development bootcamp taught at
+                  The Georgia Institute of Technology. I am extremely excited by
+                  the prospect to join the IT field and continue growing and
+                  obtaining new skills. The curriculum for the development
+                  program can be found
                   <a
                     target="blank_"
                     href="https://bootcamp.pe.gatech.edu/coding/curriculum/"
@@ -71,8 +73,9 @@ export default class AboutMe extends Component {
                       <ul id="skillsList1">
                         <li>Html</li>
                         <li>CSS</li>
-                        <li>React</li>
                         <li>Javascript</li>
+                        <li>JQuery</li>
+                        <li>React</li>
                       </ul>
                     </Fade>
                   </div>
@@ -84,6 +87,7 @@ export default class AboutMe extends Component {
                         <li>MySQL</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>
+                        <li>Sequelize</li>
                         <li>Express</li>
                       </ul>
                     </Fade>
@@ -95,7 +99,7 @@ export default class AboutMe extends Component {
                         <li>NPM/Yarn</li>
                         <li>O-Auth</li>
                         <li>Node</li>
-                        <li>axios/Ajax</li>
+                        <li>Ajax/axios</li>
                       </ul>
                     </Fade>
                   </div>
