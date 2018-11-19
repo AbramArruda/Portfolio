@@ -92,6 +92,8 @@ a:hover {
 
   #logoLink {
     background-color: white;
+    padding: 0;
+    margin: 10px;
   }
 
   #imageChange {
@@ -107,23 +109,26 @@ a:hover {
   }
   #aboutLink {
     font-size: 15px;
+    font-weight: bold;
     color: black;
-    font-weight: 150;
     margin-left: 0;
     margin-right: 20px;
+    float: left;
   }
   #contactLink {
     font-size: 15px;
+    font-weight: bold;
     color: black;
-    font-weight: 150;
     margin-right: 20px;
+    float: left;
   }
 
   #worksLink {
     font-size: 15px;
+    font-weight: bold;
     color: black;
-    font-weight: 150;
     margin-right: 20px;
+    float: left;
   }
 
   #aboutLink:active {
