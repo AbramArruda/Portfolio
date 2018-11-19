@@ -85,7 +85,7 @@ a:hover {
   .navbar {
     background: white;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     font-size: 15px;
     height: 90px;
   }
@@ -112,14 +112,14 @@ a:hover {
     font-weight: bold;
     color: black;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 10px;
     float: left;
   }
   #contactLink {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    margin-right: 20px;
+    margin-right: 10px;
     float: left;
   }
 
@@ -127,7 +127,7 @@ a:hover {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    margin-right: 20px;
+    margin-right: 10px;
     float: left;
   }
 

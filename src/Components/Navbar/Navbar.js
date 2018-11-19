@@ -8,7 +8,7 @@ import "./Navbar.css";
 export default class Navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-md justify-content-left">
+      <nav class="navbar navbar-expand-md justify-content-left" id="navbar">
         <div>
           <Link
             class="nav-link"
