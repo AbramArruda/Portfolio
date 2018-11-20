@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import Flash from "react-reveal/Flash";
 import Footer from "../../Components/Footer";
 import "./Contact.css";
-// import EmailForm from "../../Components/EmailForm/EmailForm";
+// import EmailForm from "../../Components/EmailForm";
 
 export default class HomePage extends Component {
   render() {
@@ -13,12 +13,12 @@ export default class HomePage extends Component {
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <section>
-                <div class="container">
+                <div class="container" id="contactWrapper">
                   <div>
                     <div class="jumbotron jumbotron-fluid">
                       <h1 id="emailContact">
                         You can reach me via email at:{" "}
-                        <Flash duration={2000} delay={1000}>
+                        <Flash duration={2500} delay={1000}>
                           <a href="mailto:abram1191@gmail.com" id="emailLink">
                             abram1191@gmail.com
                           </a>{" "}
@@ -28,7 +28,7 @@ export default class HomePage extends Component {
                     <div class="jumbotron jumbotron-fluid">
                       <h1 id="socialLinks">
                         I am also on:{" "}
-                        <Flash duration={2000} delay={1000}>
+                        <Flash duration={2500} delay={1000}>
                           <a
                             href="https://github.com/AbramArruda"
                             target="_blank"
@@ -38,7 +38,7 @@ export default class HomePage extends Component {
                           </a>
                         </Flash>{" "}
                         and{" "}
-                        <Flash duration={2000} delay={1000}>
+                        <Flash duration={2500} delay={1000}>
                           <a
                             href="https://www.linkedin.com/in/abramarruda/"
                             target="_blank"

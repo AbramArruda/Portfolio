@@ -11,7 +11,7 @@ export default class HomePage extends Component {
     return (
       <div class="container-fluid">
         <div class="row" id="homeTextDiv">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-sm-12 col-lg-7">
             <h1 id="homeText">
               {" "}
               <Fade cascade left duration={1500} delay={500}>
@@ -34,7 +34,7 @@ export default class HomePage extends Component {
               </Fade>
             </h1>
           </div>
-          <div class="col-sm-12 col-lg-6" id="homeImage">
+          <div class="col-sm-12 col-lg-5" id="homeImage">
             <Animation />
           </div>
         </div>

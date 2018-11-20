@@ -13,7 +13,7 @@ export default class Projects extends Component {
   render() {
     return (
       <Fade duration={5000}>
-        <Fade bottom>
+        <Fade bottom duration={2000}>
           <div class="container">
             <div class="row no-gutters">
               <div class="col-lg-6">

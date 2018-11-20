@@ -14,7 +14,7 @@ export default class AboutMe extends Component {
               <Fade duration={2000}>
                 <h1 id="aboutMeHeader">
                   {" "}
-                  I am looking to learn and face new challenges everyday.{" "}
+                  I am looking to learn and face new challenges.{" "}
                   <Fade delay={5500}>
                     <a
                       download="Resume.pdf"
@@ -22,8 +22,7 @@ export default class AboutMe extends Component {
                       target="_blank"
                       id="resumeLink"
                     >
-                      {" "}
-                      Download my Resume{" "}
+                      <br /> Download my Resume{" "}
                     </a>
                   </Fade>
                 </h1>
@@ -108,14 +107,14 @@ export default class AboutMe extends Component {
             </div>
           </div>
 
-          <div class="row about-row">
+          <div class="row about-row" id="educationWrapper">
             <div class="col-sm-12 col-lg-4 no-padding" id="aboutMeEducation">
               <Fade left delay={400}>
                 <h2 id="education">Education:</h2>
               </Fade>
             </div>
             <div class="col-sm-5 col-lg-6">
-              <div class="row" id="educationWrapper">
+              <div class="row">
                 <Fade bottom cascade duration={2000} delay={1700}>
                   <div class="col-sm-5 no-padding">
                     <h3 id="degree"> Bachelors Degree in Biology </h3>

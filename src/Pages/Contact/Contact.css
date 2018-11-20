@@ -24,11 +24,11 @@ a {
 }
 
 #emailContact {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 #socialLinks {
-  font-size: 50px;
+  font-size: 60px;
   padding-top: 0;
 }
 
@@ -38,10 +38,16 @@ a {
 #resumeLink:hover {
   color: white;
 }
+#contactWrapper {
+  padding-top: 60px;
+}
 
 @media only screen and (max-width: 700px) {
   #emailContact {
     font-size: 30px;
+  }
+  #contactWrapper {
+    padding-top: 40px;
   }
 
   #socialLinks {
