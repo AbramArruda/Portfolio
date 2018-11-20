@@ -23,7 +23,7 @@ export default class HomePage extends Component {
                     springConfig={{ stiffness: 50, damping: 20 }}
                     speed={8000}
                     children={[
-                      "full stack developer",
+                      "web developer",
                       "problem solver",
                       "biologist",
                       "soccer player",

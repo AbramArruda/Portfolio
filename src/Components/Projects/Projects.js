@@ -59,7 +59,41 @@ export default class Projects extends Component {
               <div class="col-lg-6">
                 <a
                   class="portfolio-item"
-                  href="https://www.google.com"
+                  href="https://github.com/AbramArruda/Eat-Da-Pizza"
+                  target="blank_"
+                >
+                  <span class="caption">
+                    <span class="caption-content">
+                      <p class="mb-0">
+                        A full stack project that allows you to perform all CRUD
+                        operations with a SQL database.
+                      </p>
+                    </span>
+                  </span>
+                  <img class="img-fluid" src={Project6} alt="Trivia" />
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <a
+                  class="portfolio-item"
+                  href="https://github.com/AbramArruda/GiphyAPI"
+                  target="blank_"
+                >
+                  <span class="caption">
+                    <span class="caption-content">
+                      <p class="mb-0">
+                        A dynamic web page that populates with your favorite
+                        gifs based on your search to the giphy API.
+                      </p>
+                    </span>
+                  </span>
+                  <img class="img-fluid" src={Project5} alt="GifTastic" />
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <a
+                  class="portfolio-item"
+                  href="https://github.com/AbramArruda/TriviaGame"
                   target="blank_"
                 >
                   <span class="caption">
@@ -70,55 +104,20 @@ export default class Projects extends Component {
                       </p>
                     </span>
                   </span>
-                  <img class="img-fluid" src={Project6} alt="Trivia" />
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
-                  href="https://www.google.com"
-                  target="blank_"
-                >
-                  <span class="caption">
-                    <span class="caption-content">
-                      <p class="mb-0">
-                        A dynamic web page that populates with your favorite
-                        Movie Star gifs with click to start feature!
-                      </p>
-                    </span>
-                  </span>
-                  <img class="img-fluid" src={Project5} alt="GifTastic" />
-                </a>
-              </div>
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
-                  href="https://www.google.com"
-                  target="blank_"
-                >
-                  <span class="caption">
-                    <span class="caption-content">
-                      <p class="mb-0">
-                        This is a Firebase backed train schedule application. It
-                        uses HTML, CSS and jQuery to render the schedule!
-                      </p>
-                    </span>
-                  </span>
                   <img class="img-fluid" src={Project3} alt="TrainScheduler" />
                 </a>
               </div>
               <div class="col-lg-6">
                 <a
                   class="portfolio-item"
-                  href="https://www.google.com"
+                  href="https://github.com/AbramArruda/WordGuessGame"
                   target="blank_"
                 >
                   <span class="caption">
                     <span class="caption-content">
                       <p class="mb-0">
-                        An App designed to provide 5 Star Moments for out of
-                        town travelers! Check the events and nearby restaurants
-                        in your city!
+                        A hangman styled game with a Star Wars theme. Try to
+                        guess the word without running out of lives!
                       </p>
                     </span>
                   </span>

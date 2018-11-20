@@ -6,6 +6,13 @@
 #githubIcon {
   margin: 15px;
 }
+#linkedInIcon:hover {
+  color: gray;
+}
+
+#githubIcon:hover {
+  color: gray;
+}
 
 #footer {
   position: fixed;

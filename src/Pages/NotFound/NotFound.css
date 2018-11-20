@@ -1,0 +1,34 @@
+#notFound1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Helvetica;
+
+  text-align: center;
+}
+#notFound2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Helvetica;
+
+  text-align: center;
+}
+
+#notFound3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Helvetica;
+
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  #notFound1 {
+    display: none;
+  }
+  #notFound2 {
+    font-size: 90px;
+  }
+}

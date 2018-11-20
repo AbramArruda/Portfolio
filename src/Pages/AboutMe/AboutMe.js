@@ -41,7 +41,7 @@ export default class AboutMe extends Component {
                   I am a web developer, currently living in the Atlanta area.
                   Recent graduate of a full stack development bootcamp taught at
                   The Georgia Institute of Technology. I am extremely excited by
-                  the prospect to join the IT field and continue growing and
+                  the prospect to join the IT field to continue growing and
                   obtaining new skills. The curriculum for the development
                   program can be found
                   <a
