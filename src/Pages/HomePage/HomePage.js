@@ -20,7 +20,7 @@ export default class HomePage extends Component {
               <Fade cascade duration={1500} delay={1700}>
                 <h3 id="homeText2">
                   <TextLoop
-                    springConfig={{ stiffness: 50, damping: 20 }}
+                    springConfig={{ stiffness: 40, damping: 30 }}
                     speed={8000}
                     children={[
                       "web developer",

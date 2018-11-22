@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 
-import Project1 from "../../images/photo1.jpeg";
-import Project2 from "../../images/photo2.jpeg";
-import Project3 from "../../images/photo3.jpeg";
-import Project4 from "../../images/photo4.jpeg";
-import Project5 from "../../images/photo5.jpeg";
-import Project6 from "../../images/photo6.jpeg";
+import Project1 from "../../images/Projects/photo1.jpeg";
+import Project2 from "../../images/Projects/photo2.jpeg";
+import Project3 from "../../images/Projects/photo3.jpeg";
+import Project4 from "../../images/Projects/photo4.jpeg";
+import Project5 from "../../images/Projects/photo5.jpeg";
+import Project6 from "../../images/Projects/photo6.jpeg";
 import "./Projects.css";
 
 export default class Projects extends Component {

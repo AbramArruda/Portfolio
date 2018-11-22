@@ -27,7 +27,7 @@ export default class HomePage extends Component {
                     </div>
                     <div class="jumbotron jumbotron-fluid">
                       <h1 id="socialLinks">
-                        I am also on:{" "}
+                        I am also on{" "}
                         <Flash duration={2500} delay={1000}>
                           <a
                             href="https://github.com/AbramArruda"

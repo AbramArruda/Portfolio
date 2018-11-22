@@ -10,7 +10,7 @@ import Works from "./Pages/Works";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="contentWrapper">
         <Router>
           <div>
             <Navbar />
