@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://www.abramarruda.com",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.14.0",
     "react-bodymovin": "^2.0.0",
     "react-dom": "^16.6.0",
@@ -12,7 +11,8 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "^5.0.1",
     "react-text-loop": "^2.3.0",
-    "scripts": "^0.1.0"
+    "scripts": "^0.1.0",
+    "webpack": "^5.102.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +27,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "webpack-dev-server": "^5.2.2"
+  }
 }
