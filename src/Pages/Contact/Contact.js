@@ -37,21 +37,13 @@ export default class HomePage extends Component {
                             github
                           </a>
                         </Flash>{" "}
-                        and{" "}
-                        <Flash duration={2700} delay={1200}>
-                          <a
-                            href="https://www.linkedin.com/in/abramarruda/"
-                            target="_blank"
-                            id="linkedInLink"
-                          >
-                            linkedin
-                          </a>
-                        </Flash>
+                        
+                        
                       </h1>
                     </div>
                     <div class="jumbotron jumbotron-fluid">
                       <h3 id="emailContact2">
-                        This portfolio was created using React.js
+                        This portfolio was created using React.js by Meta
                       </h3>
                     </div>
                   </div>

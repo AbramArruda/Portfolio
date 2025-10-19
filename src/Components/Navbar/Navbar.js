@@ -46,17 +46,6 @@ export default class Navbar extends Component {
             >
               contact
             </Link>
-            
-          </li>
-          <li class="nav-item">
-            <Link
-              class="nav-link underline"
-              to={process.env.PUBLIC_URL + "/Resources"}
-              id="extrasLink"
-            >
-              resources
-            </Link>
-            
           </li>
         </ul>
       </nav>

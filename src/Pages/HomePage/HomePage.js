@@ -13,8 +13,8 @@ export default class HomePage extends Component {
           <div class="col-sm-12 col-lg-7">
             <h1 id="homeText">
               {" "}
-              <Fade cascade left duration={3000} delay={500}>
-                Hi, I'm Abram Arruda
+              <Fade  left duration={2000} delay={100}>
+                Hello, I'm Abram Arruda
               </Fade>
             
               <Fade bottom delay={3200} speed={2500} >
@@ -23,13 +23,13 @@ export default class HomePage extends Component {
                     springConfig={{ stiffness: 130, damping: 100 }}
                     children={[
                       "developer",
-                      "botanist",
+                      "biologist",
                       "husband",
-                      "footballer",
-                      "student",
+                      "father",
+                      
                     ]}
                   />
-                 
+  
                 </h3>
               </Fade>
             </h1>

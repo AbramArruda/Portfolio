@@ -11,7 +11,7 @@ export default class Works extends Component {
         <div class="container">
           <Fade top duration={2000} delay={200}>
             <h1 class="display-6" id="worksTitle">
-              2024 projects
+              2026 projects
             </h1>
           </Fade>
           <Projects />

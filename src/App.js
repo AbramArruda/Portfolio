@@ -6,7 +6,7 @@ import NotFound from "./Pages/NotFound";
 import AboutMe from "./Pages/AboutMe";
 import Contact from "./Pages/Contact";
 import Works from "./Pages/Works";
-import Extras from "./Pages/Extras";
+
 
 class App extends Component {
   render() {
@@ -33,10 +33,7 @@ class App extends Component {
                 path={process.env.PUBLIC_URL + "/Works"}
                 component={Works}
               />
-              <Route
-                path={process.env.PUBLIC_URL + "/Resources"}
-                component={Extras}
-              />
+              
               <Route component={NotFound} />
             </Switch>
           </div>
