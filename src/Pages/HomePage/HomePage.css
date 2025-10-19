@@ -2,7 +2,7 @@
   padding-top: 220px;
   text-align: center;
   height: 300px;
-  font-size: 65px;
+  font-size: 70px;
 }
 
 #homeText2 {
@@ -31,5 +31,6 @@
 
   #homeTextDiv {
     font-size: 45px;
+    position: absolute;
   }
 }

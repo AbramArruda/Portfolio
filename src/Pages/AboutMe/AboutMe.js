@@ -14,8 +14,8 @@ export default class AboutMe extends Component {
               <Fade duration={2000}>
                 <h1 id="aboutMeHeader">
                   {" "}
-                  I am eager to learn and face new challenges.{" "}
-                  <Fade delay={5500}>
+                  Always learning and facing new challenges.{" "}
+                  <Fade delay={2000}>
                     <a
                       download="Resume.pdf"
                       href={Resume}
@@ -38,19 +38,17 @@ export default class AboutMe extends Component {
             <div class="col-sm-12 col-lg-8 no-padding">
               <Fade bottom duration={1800} delay={1000}>
                 <p id="bio">
-                  I am a web developer, currently living in the Atlanta area.
-                  Recent graduate of a full stack development bootcamp taught at
-                  The Georgia Institute of Technology. I am extremely excited by
-                  the prospect to join the IT field to continue growing and
-                  obtaining new skills. The curriculum for the development
-                  program can be found
+                  Web developer and content creator in Georgia.
+                  Full stack development certification received from
+                  The Georgia Institute of Technology. The development
+                  program curriculum 
                   <a
                     target="blank_"
                     href="https://bootcamp.pe.gatech.edu/coding/curriculum/"
                     id="courseContent"
                   >
                     {" "}
-                    here.{" "}
+                   can be found here.{" "}
                   </a>
                 </p>
               </Fade>

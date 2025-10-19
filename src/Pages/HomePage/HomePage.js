@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import Pulse from "react-reveal/Pulse";
 import "./HomePage.css";
 import TextLoop from "react-text-loop";
 import Footer from "../../Components/Footer";
@@ -14,22 +13,23 @@ export default class HomePage extends Component {
           <div class="col-sm-12 col-lg-7">
             <h1 id="homeText">
               {" "}
-              <Fade cascade left duration={1500} delay={500}>
+              <Fade cascade left duration={3000} delay={500}>
                 Hi, I'm Abram Arruda
               </Fade>
-              <Fade cascade duration={1500} delay={1700}>
-                <h3 id="homeText2">
-                  <TextLoop
-                    springConfig={{ stiffness: 40, damping: 30 }}
-                    speed={8000}
+            
+              <Fade bottom delay={3200} speed={2500} >
+                <h3 id="homeText2" p> 
+                  <TextLoop delay={2000} interval={6500} mask={true}
+                    springConfig={{ stiffness: 130, damping: 100 }}
                     children={[
-                      "web developer",
-                      "problem solver",
-                      "biologist",
-                      "soccer player",
-                      "lifelong learner"
+                      "developer",
+                      "botanist",
+                      "husband",
+                      "footballer",
+                      "student",
                     ]}
                   />
+                 
                 </h3>
               </Fade>
             </h1>

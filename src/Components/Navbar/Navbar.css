@@ -38,7 +38,12 @@ a {
   text-align: right;
   color: white;
 }
-
+#extrasLink {
+  margin-right: 50px;
+  font-size: 23px;
+  text-align: right;
+  color: white;
+}
 #worksLink {
   margin-right: 50px;
   font-size: 23px;
@@ -127,7 +132,13 @@ a {
     margin-right: 10px;
     display: inline-block;
   }
-
+  #extrasLink {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-right: 10px;
+    display: inline-block;
+  }
   #worksLink {
     font-size: 15px;
     font-weight: bold;
@@ -145,6 +156,11 @@ a {
     text-decoration: black;
     text-decoration: underline;
   }
+  #extrasLink:active {
+    text-decoration: black;
+    text-decoration: underline;
+  }
+
 
   #worksLink:active {
     text-decoration: black;

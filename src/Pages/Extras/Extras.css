@@ -2,7 +2,7 @@
   background: none;
 }
 
-#worksTitle {
+#extrasTitle {
   margin-top: 20px;
   text-align: center;
   padding-top: 35px;
@@ -10,12 +10,12 @@
   font-size: 75px;
 }
 
-#worksJumbotron {
+#extrasJumbotron {
   padding-top: 0;
 }
 
 @media only screen and (max-width: 700px, max-height: 500px) {
-  #worksTitle {
+  #extrasTitle {
     font-size: 40px;
     margin-top: 10px;
   }

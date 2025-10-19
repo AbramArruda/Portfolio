@@ -18,9 +18,9 @@ export default class HomePage extends Component {
                     <div class="jumbotron jumbotron-fluid">
                       <h1 id="emailContact">
                         You can reach me via email at:{" "}
-                        <Flash duration={2500} delay={1000}>
-                          <a href="mailto:abram1191@gmail.com" id="emailLink">
-                            abram1191@gmail.com
+                        <Flash duration={2700} delay={1200}>
+                          <a href="mailto:abramarruda@gmail.com" id="emailLink">
+                            abramarruda@gmail.com
                           </a>{" "}
                         </Flash>
                       </h1>
@@ -28,7 +28,7 @@ export default class HomePage extends Component {
                     <div class="jumbotron jumbotron-fluid">
                       <h1 id="socialLinks">
                         I am also on{" "}
-                        <Flash duration={2500} delay={1000}>
+                        <Flash duration={2700} delay={1200}>
                           <a
                             href="https://github.com/AbramArruda"
                             target="_blank"
@@ -38,7 +38,7 @@ export default class HomePage extends Component {
                           </a>
                         </Flash>{" "}
                         and{" "}
-                        <Flash duration={2500} delay={1000}>
+                        <Flash duration={2700} delay={1200}>
                           <a
                             href="https://www.linkedin.com/in/abramarruda/"
                             target="_blank"
@@ -48,6 +48,11 @@ export default class HomePage extends Component {
                           </a>
                         </Flash>
                       </h1>
+                    </div>
+                    <div class="jumbotron jumbotron-fluid">
+                      <h3 id="emailContact2">
+                        This portfolio was created using React.js
+                      </h3>
                     </div>
                   </div>
 
